@@ -28,7 +28,8 @@ SECRET_KEY = '^c%aep!zdrs$-_b3ggw3iu$zee2-oc_3w4or)y7*=!dtk*2@)u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogsweb.herokuapp.com', 'localhost', '127.0.0.1']
+# ALLOWED_HOSTS = ['blogsweb.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ["localhost", "192.168.0.121", "127.0.0.1"]
 
 
