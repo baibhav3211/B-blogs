@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+{% block body %} 
+<div class="container">
+    <div class="jumbotron my-5">
+        <h1 class="display-4">Welcome to B'logs</h1>
+        <p class="lead">If you are new here, then what are you waiting for. Just login yourself and read the posts and give your comment and views.</p>
+        <hr class="my-4">
+        <p>We provide very awesome blogs for u to read!</p>
+        <a class="btn btn-primary btn-lg" href="/blog" role="button">Go to blog</a>
+    </div>
+</div>
+
+<!-- <div class="container">
+<h2>Popular blog Posts:</h2>
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row my-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="/blog/{{post.slug}}" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          {% comment %} image {% endcomment %}
+        </div>
+      </div>
+</div> -->
+<div class="container">
+  <h2 style="text-align: center;">Our services</h2><br>
+  <div class="row mx-3">
+  <div class="card mb-3" style="max-width: 500px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="/static/img/3.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Awesome Python Blogs</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 mx-3" style="max-width: 500px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="/static/img/2.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Coding articles</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+{% endblock body %}
